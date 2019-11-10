@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>京东登录页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <div class="container"> 
+        <div class="top">
+            <div class="logo"></div><div class="welcome"></div>
+            <p>
+                <b style="display: block;width: 18px;height: 14px; background: url(imgs/消息图标.png) no-repeat;float: left;margin:3px 3px 0 0;"></b>
+                <a href="#">登录页面, 调查问卷</a>
+            </p>
+        </div>
+        <div class="center">
+             <p>
+                 
+               <b ></b>  依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版《京东隐私政策》已上线，将更有利于保护您的个人隐私。</p>
+            <div class="center-content">
+                <div class="userLand">
+                    <p><b ></b>京东不会以任何理由要求您转账汇款，谨防诈骗。</p>
+                    <ul>
+                        <li id="SweepCodeEntry"><span style="border-right:1px solid #f4f4f4;color: #e4393c">扫码登录</span></li>
+                        <li id="accountNumberEntry"><span>账户登录</span></li>
+                    </ul>
+                    <div class="userLand_contaner">
+                        <div class="QRCode">
+                                <img src="imgs/二维码.png" alt="" >
+                                <div class="explain">
+                                    <img src="imgs/扫码说明.png" alt="" style="width:100%;height:100%;">
+                                </div>
+                        </div>      
+                        <div class="mask"></div>
+                        <span>打开 <a href="#">手机京东</a>  扫描二维码</span>
+                        <ul class="userLand_icon">
+                            <li><b style="background :url(imgs/更快更安全.png) no-repeat"></b><span>免输出</span></li>
+                            <li><b style="background :url(imgs/更快更安全.png) no-repeat;background-position: -24.9px 0px"></b><span>更快</span></li>
+                            <li><b style="background :url(imgs/更快更安全.png) no-repeat; background-position: -51.5px 0px;"></b><span>更安全</span></li>
+                        </ul>
+                       
+                    </div>
+                    <div class="accountEntry">
+                        <form action="index.jsp" method="POST">
+                            <div class="passwordWrong">
+                                <b></b>
+                                <span> 账户名与密码不匹配，请重新输入
+                                    如需海外手机登录请添加 <a href = "#" style="text-decoration: none;">国际区号</a>
+                                </span>
+                            </div>
+                            <ul>
+                                <li style="margin-bottom:25px;">
+                                    <div class="userIcont"></div>
+                                    <input type="text" id="userNumber" placeholder= "邮箱 / 用户名 / 手机号">
+                                    <div class="userremove"></div>
+                                </li>
+                                <li>
+                                    <div class="userIcont" style=" background-position: -48px 0"></div>
+                                    <input type="password" id="userPassword" placeholder="密码">
+                                    <div class="userremove"></div>
+                                </li>
+                            </ul>
+                            <p><a href="#">忘记密码</a></p>
+                            <div id="entryBotton"><input type="button" value="登 &nbsp;&nbsp;&nbsp;录" id="submit"></div>
+                        </form>
+                        <div class="proving">
+                            <div class="proving_top">
+                                <span style="float: left;color: rgb(100, 100, 109);">完成拼图验证</span>
+                                <span style="float: right;color: #06c;cursor: pointer;" class="update">换一张</span>
+                                <span class="removeElement"> X </span>
+                            </div>
+                            <div class="proving_center">
+                                <div class="smallImg"></div>
+                            </div>
+                            <div class="proving_foot">
+                                <div class="font">向右滑动完成拼图</div>
+                                <div class="line"></div>
+                                <div class="circle"></div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="LoginWay">
+
+                        <ul style="float:left;">
+                            <li><b style="background:url(imgs/QQ-weixin.png)"></b><a href="#">QQ</a></li>
+                            <li style="font-size:12px;line-height: 15px;color: #ccc;">|</li>
+                            <li><b style="background:url(imgs/QQ-weixin.png);background-position: -20px 0px;"></b><a href="#">微信</a></li>
+                        </ul>
+                        <div class="enroll">
+                            <b></b>
+                            <a herf="#">立即注册</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <ul>
+                <li><a href ="#">关于我们</a></li><li class="font-line">|</li>
+                <li><a href ="#">联系我们</a></li><li class="font-line">|</li>
+                <li><a href ="#">人才招聘</a></li><li class="font-line">|</li>
+                <li><a href ="#">商家入驻</a></li><li class="font-line">|</li>
+                <li><a href ="#">广告服务</a></li><li class="font-line">|</li>
+                <li><a href ="#">手机京东</a></li><li class="font-line">|</li>
+                <li><a href ="#">友情链接</a></li><li class="font-line">|</li>
+                <li><a href ="#">销售联盟</a></li><li class="font-line">|</li>
+                <li><a href ="#">京东社区</a></li><li class="font-line">|</li>
+                <li><a href ="#">京东公益</a></li><li class="font-line">|</li>
+                <li><a href ="#">English Site</a></li>
+            </ul>
+           <p>Copyright © 2004-2019  京东JD.com 版权所有</p>
+
+        </div>
+  </div>
+ <script src="index.js"></script>
+</body>
+</html>
